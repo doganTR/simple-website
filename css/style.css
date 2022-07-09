@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+.ana-header__arma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24vh;
+    margin-bottom: 6vh;
+}
+
+.ana-header__arma img {
+    height: 115px;
+}
+
+.ana-header__aciklama {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ana-header__aciklama h1 {
+    margin-bottom: 10px;
+}
+
+.ana-header__aciklama h2 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ana-main {
+    display: flex;
+    justify-content: center;
+}
+.ana-main__butonlar {
+    margin-top: 50px;
+}
+
+.ana-main__butonlar__buton2 ,
+.ana-main__butonlar__buton1 {
+    margin-right: 5px;
+    text-decoration: none;
+    background-color: #5b97e0   ;
+    color: white;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ana-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #F6F6F6;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #E4E4E4;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ana-footer__linkler a {
+    color: black;
+}
+
