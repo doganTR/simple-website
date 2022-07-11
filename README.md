@@ -1,1 +1,1 @@
-<p> https://dogantr.github.io/simple-website2/ </p>
+<p> https://dogantr.github.io/simple-website/ </p>
